@@ -1,0 +1,179 @@
+[
+{
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+        "first_name": "Ariel",
+        "last_name": "Miguel",
+        "second_last_name": "Villeda",
+        "phone": "1234567890",
+        "email": "ariel.mvilleda@gmail.com",
+        "email_verified_at": "2020-12-20T18:52:54Z",
+        "confirmation_token": "12412412",
+        "created_at": "2020-12-20T18:53:01.557Z",
+        "updated_at": "2020-12-20T18:53:01.557Z",
+        "status": "normal"
+    }
+},
+{
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+        "first_name": "Adrian",
+        "last_name": "Piña",
+        "second_last_name": "Almeyda",
+        "phone": "0987654321",
+        "email": "adrian@example.com",
+        "email_verified_at": "2020-12-20T18:53:24Z",
+        "confirmation_token": "12321424",
+        "created_at": "2020-12-20T18:53:25.441Z",
+        "updated_at": "2020-12-20T18:53:25.441Z",
+        "status": "normal"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 1,
+    "fields": {
+        "name": "Ropa"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 2,
+    "fields": {
+        "name": "Electrónicos"
+    }
+},
+{
+    "model": "api.category",
+    "pk": 3,
+    "fields": {
+        "name": "Repostería"
+    }
+},
+{
+    "model": "api.commercetemplate",
+    "pk": 1,
+    "fields": {
+        "name": "Template uno",
+        "thumbnail": "public/images/commerce_template/uno_3b7EeYz.jpg",
+        "enabled": true,
+        "url": "templates.site.mx/uno",
+        "created_at": "2020-12-20T18:53:50.043Z",
+        "updated_at": "2020-12-20T18:53:50.043Z"
+    }
+},
+{
+    "model": "api.commercetemplate",
+    "pk": 2,
+    "fields": {
+        "name": "Template dos",
+        "thumbnail": "public/images/commerce_template/dos_BH8dZNl.jpg",
+        "enabled": true,
+        "url": "templates.site.mx/dos",
+        "created_at": "2020-12-20T18:54:09.404Z",
+        "updated_at": "2020-12-20T18:54:09.404Z"
+    }
+},
+{
+    "model": "api.commercetemplate",
+    "pk": 3,
+    "fields": {
+        "name": "Template tres",
+        "thumbnail": "public/images/commerce_template/tres_8yNgIik.jpg",
+        "enabled": true,
+        "url": "templates.site.mx/tres",
+        "created_at": "2020-12-20T18:54:23.846Z",
+        "updated_at": "2020-12-20T18:54:23.846Z"
+    }
+},
+{
+    "model": "api.domain",
+    "pk": 1,
+    "fields": {
+        "path": "www.mitiendita.site.mx",
+        "store": 1,
+        "created_at": "2020-12-20T18:57:35.824Z",
+        "updated_at": "2020-12-20T18:57:35.824Z"
+    }
+},
+{
+    "model": "api.domain",
+    "pk": 2,
+    "fields": {
+        "path": "www.michangarro.site.mx",
+        "store": 2,
+        "created_at": "2020-12-20T18:57:49.044Z",
+        "updated_at": "2020-12-20T18:57:49.044Z"
+    }
+},
+{
+    "model": "api.paymentplan",
+    "pk": 1,
+    "fields": {
+        "name": "Pro - Mensual",
+        "price": 1600.00,
+        "time_span": 31,
+        "created_at": "2020-12-20T18:54:56.920Z",
+        "updated_at": "2020-12-20T18:54:56.920Z"
+    }
+},
+{
+    "model": "api.paymentplan",
+    "pk": 2,
+    "fields": {
+        "name": "Pro - Anual",
+        "price": 16000.00,
+        "time_span": 365,
+        "created_at": "2020-12-20T18:55:10.177Z",
+        "updated_at": "2020-12-20T18:55:10.177Z"
+    }
+},
+{
+    "model": "api.paymentplan",
+    "pk": 3,
+    "fields": {
+        "name": "Normal - Mensual",
+        "price": 1100.00,
+        "time_span": 31,
+        "created_at": "2020-12-20T18:55:24.122Z",
+        "updated_at": "2020-12-20T18:55:24.122Z"
+    }
+},
+{
+    "model": "api.paymentplan",
+    "pk": 4,
+    "fields": {
+        "name": "Normal - Anual",
+        "price": 12000.00,
+        "time_span": 365,
+        "created_at": "2020-12-20T18:55:48.961Z",
+        "updated_at": "2020-12-20T18:55:48.961Z"
+    }
+},
+{
+    "model": "api.store",
+    "pk": 1,
+    "fields": {
+        "name": "Mi tiendita",
+        "logo": "public/images/store/logo_1.jpg",
+        "user": 1,
+        "category": 1,
+        "created_at": "2020-12-20T18:56:54.745Z",
+        "updated_at": "2020-12-20T18:56:54.745Z"
+    }
+},
+{
+    "model": "api.store",
+    "pk": 2,
+    "fields": {
+        "name": "Mi changarro",
+        "logo": "public/images/store/logo_2.jpg",
+        "user": 2,
+        "category": 2,
+        "created_at": "2020-12-20T18:57:10.864Z",
+        "updated_at": "2020-12-20T18:57:10.865Z"
+    }
+}
+]
